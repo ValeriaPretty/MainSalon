@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/uslugi_for_clients">
+        <menu>
+            <item
+
+                android:id="@+id/inc"
+                android:title="@string/in" />
+            <item
+
+                android:id="@+id/button_client_Regist"
+                android:title="@string/button_client_Regist" />
+            <item
+
+                android:id="@+id/parik"
+                android:onClick="start_paric"
+                app:showAsAction="never"
+                android:title="@string/parik" />
+            <item
+
+                android:title="@string/makeup"
+                android:id="@+id/makeup"
+                />
+            <item
+
+                android:title="@string/massag"
+                android:id="@+id/massag"
+                />
+            <item
+
+                android:title="@string/out"
+                android:id="@+id/out"
+                />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/admin">
+        <menu>
+            <item
+                android:id="@+id/in_ad"
+                android:title="@string/in_ad" />
+            <item
+                android:id="@+id/reg_admin"
+                android:title="@string/button_administrator_Regist" />
+            <item
+                android:id="@+id/add_client"
+                android:title="@string/add_client" />
+            <item
+                android:id="@+id/delete_client"
+                android:title="@string/delete_client" />
+            <item
+                android:id="@+id/add_sotrudnik"
+                android:title="@string/add_sotrudnik" />
+            <item
+                android:id="@+id/delete_sotrudnik"
+                android:title="@string/delete_sotrudnik" />
+            <item
+                android:id="@+id/out2"
+                android:title="@string/out_ad" />
+        </menu>
+
+    </item>
+
+
+</menu>

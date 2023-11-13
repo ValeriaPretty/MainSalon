@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MainSalon</string>
+    <string name="button_client">Войти как клиент</string>
+    <string name="button_client_Regist">Зарегистрироваться</string>
+    <string name="button_administrator">Войти как администратор</string>
+    <string name="button_administrator_Regist">Зарегистрироваться</string>
+    <string name="in">Войти в учетную запись</string>
+    <string name="out">Выйти из учетной записи</string>
+    <string name="in_ad">Войти в учетную запись</string>
+    <string name="out_ad">Выйти из учетной записи</string>
+    <string name="add_client">Добавить клиента</string>
+    <string name="delete_client">Удалить клиента</string>
+    <string name="add_sotrudnik">Добавить сотрудника</string>
+    <string name="delete_sotrudnik">Удалить сотрудника</string>
+    <string name="main_name">Beauty</string>
+    <string name="admin">Для администраторов</string>
+    <string name="uslugi_for_clients">Услуги для клиентов</string>
+    <string name="open">Открыть</string>
+    <string name="close">Закрыть</string>
+    <string name="default_web_client_id">325254929776-g1hk808jia4f9vt90jk9ul6n1jr74p76.apps.googleusercontent.com</string>
+
+
+    <!-- Sign hint -->
+    <string name="email_hint">Почта</string>
+    <string name="password_hint">Пароль</string>
+    <string name="Sign_in">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="sign_in_in">Войти</string>
+    <string name="log_in">Зарегистрироваться</string>
+    <string name="remember_pas">Забыли пароль?</string>
+
+    <string name="error_signin">Ошибка регистрации</string>
+    <string name="suck_signin">Подтвердите регистрацию на почте</string>
+    <string name="error_signin_emai">Не удалось отправить сообщение на почту для подтверждения</string>
+    <string name="error_signin_">Не удалось войти</string>
+    <string name="wait_an_email">Сообщение для сброса пароля отправлено на почту</string>
+
+
+    <string name="parik">Записаться к парикмахеру</string>
+    <string name="makeup">Записаться к визажисту</string>
+    <string name="massag">Записаться на массаж</string>
+
+
+    <string name="not_reg">Вы не зарегистрированы</string>
+    <string name="input_your_mail">Введите почту для сброса пароля</string>
+
+
+</resources>
