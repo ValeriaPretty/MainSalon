@@ -22,9 +22,8 @@
                 android:title="@string/parik" />
             <item
 
-                android:title="@string/makeup"
                 android:id="@+id/makeup"
-                />
+                android:title="@string/makeup" />
             <item
 
                 android:title="@string/massag"
@@ -55,6 +54,8 @@
                 android:title="@string/delete_client" />
             <item
                 android:id="@+id/add_sotrudnik"
+                android:onClick="add_paric"
+                app:showAsAction="never"
                 android:title="@string/add_sotrudnik" />
             <item
                 android:id="@+id/delete_sotrudnik"

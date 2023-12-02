@@ -16,6 +16,9 @@
             android:name=".Paric"
             android:exported="false" />
         <activity
+            android:name=".Admin_make.Master_add"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

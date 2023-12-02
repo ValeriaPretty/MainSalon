@@ -3,17 +3,15 @@ package com.example.mainsalon
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-//import android.util.Log
 import android.view.MenuItem
-import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.mainsalon.Admin_make.Master_add
 import com.example.mainsalon.dialog_helper.DialogHelper
 import com.example.mainsalon.dialog_helper.DialogHelperClient
-//import com.example.mainsalon.dialog_helper.GoogleConst
 import com.example.mainsalon.dialog_helper.dialogconst
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
@@ -28,6 +26,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     private val dialogHelperClient = DialogHelperClient(this)
     private lateinit var textView: TextView
     val mAuth = FirebaseAuth.getInstance()
+    //val dbManager = DbManager()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,6 +36,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         drawerLayout = findViewById(R.id.drawerLayout)
         navigationView = findViewById(R.id.navView)
         init()
+        //dbManager.readDataFromDB()
 
     }
 
@@ -101,4 +101,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         startActivity(intent)
 
     }
+
+    fun add_paric(item: MenuItem){
+        val intent = Intent(this, Master_add::class.java)
+        startActivity(intent)
+
+    }
+
 }

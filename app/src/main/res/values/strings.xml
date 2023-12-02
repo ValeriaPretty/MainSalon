@@ -44,5 +44,24 @@
     <string name="not_reg">Вы не зарегистрированы</string>
     <string name="input_your_mail">Введите почту для сброса пароля</string>
 
+    <string name="name_of_master">Имя мастера</string>
+    <string name="add_name_of_master">Введите имя мастера</string>
+    <string name="work_of_master">Должность мастера</string>
+    <string name="add_work_of_master">Введите должность мастера</string>
+    <string name="age">Опыт работы</string>
+    <string name="add_age">Введите опыт работы</string>
+    <string name="master_add">Добавить мастера</string>
+    <string name="nazad">назад</string>
+    <string name="raspisanie">Расписание </string>
+    <string name="data">Введите дату</string>
+    <string name="time">Время</string>
+
+
+
+
+
+
+
+
 
 </resources>
