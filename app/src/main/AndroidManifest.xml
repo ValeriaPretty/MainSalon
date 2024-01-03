@@ -13,6 +13,48 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".MakeUp"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_make.Massaj_add"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_make.Make_add"
+            android:exported="false" />
+        <activity
+            android:name=".Massaj"
+            android:exported="false" />
+        <activity
+            android:name=".Spisok_clients"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_make.Zapis"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_make.ZapisMassaj"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_make.ZapisMake"
+            android:exported="false" />
+        <activity
+            android:name=".account_helper.Okno_podtverdit"
+            android:exported="false" />
+        <activity
+            android:name=".account_helper.Okno_podtverdit_massaj"
+            android:exported="false" />
+        <activity
+            android:name=".account_helper.Okno_podtverdit_make"
+            android:exported="false" />
+        <activity
+            android:name=".account_helper.FullMaster"
+            android:exported="false" />
+        <activity
+            android:name=".account_helper.FullMasterMAssaj"
+            android:exported="false" />
+        <activity
+            android:name=".account_helper.FullMasterMake"
+            android:exported="false" />
+        <activity
             android:name=".Paric"
             android:exported="false" />
         <activity

@@ -54,6 +54,7 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore-ktx:24.9.1")
     implementation("com.google.firebase:firebase-storage:20.3.0")
     implementation("com.google.firebase:firebase-storage-ktx:20.3.0")
+    implementation ("androidx.activity:activity-ktx:1.8.1")
     implementation("com.google.android.gms:play-services-auth:20.7.0")
     //implementation("com.google.firebase:firebase-database:20.3.0")
     testImplementation("junit:junit:4.13.2")

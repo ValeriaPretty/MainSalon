@@ -3,42 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
     <item android:title="@string/uslugi_for_clients">
         <menu>
             <item
-
                 android:id="@+id/inc"
                 android:title="@string/in" />
             <item
-
                 android:id="@+id/button_client_Regist"
                 android:title="@string/button_client_Regist" />
             <item
-
                 android:id="@+id/parik"
                 android:onClick="start_paric"
                 app:showAsAction="never"
                 android:title="@string/parik" />
             <item
-
                 android:id="@+id/makeup"
+                android:onClick="start_make"
+                app:showAsAction="never"
                 android:title="@string/makeup" />
             <item
-
+                android:onClick="start_massaj"
+                app:showAsAction="never"
                 android:title="@string/massag"
                 android:id="@+id/massag"
                 />
             <item
-
                 android:title="@string/out"
                 android:id="@+id/out"
                 />
-
         </menu>
     </item>
-
-    <item android:title="@string/admin">
+    <item
+        android:id="@+id/admin"
+        android:title="@string/admin">
         <menu>
             <item
                 android:id="@+id/in_ad"
@@ -47,25 +44,28 @@
                 android:id="@+id/reg_admin"
                 android:title="@string/button_administrator_Regist" />
             <item
-                android:id="@+id/add_client"
-                android:title="@string/add_client" />
-            <item
-                android:id="@+id/delete_client"
-                android:title="@string/delete_client" />
-            <item
                 android:id="@+id/add_sotrudnik"
                 android:onClick="add_paric"
-                app:showAsAction="never"
-                android:title="@string/add_sotrudnik" />
+                android:title="@string/add_sotrudnik"
+                app:showAsAction="never" />
             <item
-                android:id="@+id/delete_sotrudnik"
-                android:title="@string/delete_sotrudnik" />
+                android:id="@+id/addvizaj"
+                android:onClick="add_make"
+                android:title="@string/add_vizaj"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/add_massaj"
+                android:onClick="add_massaj"
+                android:title="@string/add_massaj"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/spisok"
+                android:onClick="start_client"
+                android:title="@string/spisok_clientov"
+                app:showAsAction="never" />
             <item
                 android:id="@+id/out2"
                 android:title="@string/out_ad" />
         </menu>
-
     </item>
-
-
 </menu>

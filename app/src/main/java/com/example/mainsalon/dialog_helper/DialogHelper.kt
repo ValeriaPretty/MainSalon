@@ -1,6 +1,4 @@
 package com.example.mainsalon.dialog_helper
-
-
 import android.app.AlertDialog
 import android.view.View
 import android.widget.Toast
@@ -8,9 +6,6 @@ import com.example.mainsalon.MainActivity
 import com.example.mainsalon.R
 import com.example.mainsalon.account_helper.accountHelper
 import com.example.mainsalon.databinding.SignAdministratorBinding
-
-
-
 class DialogHelper(act:MainActivity ) {
     private val activ = act
     private val acchelper = accountHelper(activ)
@@ -30,7 +25,6 @@ class DialogHelper(act:MainActivity ) {
         }
         dialog.show()
     }
-
     private fun setOnClickResetPasswrd(rootDialogElement: SignAdministratorBinding, dialog: AlertDialog?) {
 // rootDialogElement - прямой доступ к моим элементам которые на моем экране в sign_client
         if (rootDialogElement.edSignEmailClient.text.isNotEmpty()){
@@ -43,9 +37,7 @@ class DialogHelper(act:MainActivity ) {
         }else{
             rootDialogElement.inputMail.visibility = View.VISIBLE
         }
-
     }
-
     private fun setOnClickSignUpIn(index: Int, rootDialogElement: SignAdministratorBinding, dialog: AlertDialog?) {
         dialog?.dismiss() // dismiss запустится если dialog не нал
         if(index == dialogconst.SIGN_UP_STATE){
@@ -56,7 +48,6 @@ class DialogHelper(act:MainActivity ) {
                 rootDialogElement.edSignPasswrdClient.text.toString())
         }
     }
-
     private fun setDialogState(index: Int, rootDialogElement: SignAdministratorBinding) {
         if (index == dialogconst.SIGN_UP_STATE){ // мы сюда передаем константу в которой хранится число, Зашли для регистрации?
             rootDialogElement.tvClient.text = activ.resources.getString(R.string.registration)

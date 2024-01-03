@@ -1,5 +1,4 @@
 package com.example.mainsalon.dialog_helper
-
 import android.app.AlertDialog
 import android.view.View
 import android.widget.Toast
@@ -7,7 +6,6 @@ import com.example.mainsalon.MainActivity
 import com.example.mainsalon.databinding.SignClientBinding
 import com.example.mainsalon.R
 import com.example.mainsalon.account_helper.accountHelper
-
 class DialogHelperClient(act:MainActivity) {
     private val activ = act
     private val acchelper = accountHelper(activ)
@@ -17,7 +15,6 @@ class DialogHelperClient(act:MainActivity) {
         val view = rootDialogElement.root
         builder.setView(view)
         setDialogState(index, rootDialogElement)
-
         val dialog = builder.create()
         rootDialogElement.buttonSignClient.setOnClickListener {// когда мы нажимаем на кнопку запускается этот код
             setOnClickSignUpIn(index, rootDialogElement, dialog)
@@ -27,7 +24,6 @@ class DialogHelperClient(act:MainActivity) {
         }
         dialog.show()
     }
-
     private fun setOnClickResetPasswrd(rootDialogElement: SignClientBinding, dialog: AlertDialog?) {
 // rootDialogElement - прямой доступ к моим элементам которые на моем экране в sign_client
         if (rootDialogElement.edSignEmailClient.text.isNotEmpty()){
@@ -43,7 +39,6 @@ class DialogHelperClient(act:MainActivity) {
         }
 
     }
-
     private fun setOnClickSignUpIn(index: Int, rootDialogElement: SignClientBinding, dialog: AlertDialog?) {
         dialog?.dismiss() // dismiss запустится если dialog не нал
         if(index == dialogconst.SIGN_UP_STATE){
@@ -54,7 +49,6 @@ class DialogHelperClient(act:MainActivity) {
                 rootDialogElement.edSignPasswrdClient.text.toString())
         }
     }
-
     private fun setDialogState(index: Int, rootDialogElement: SignClientBinding) {
         if (index == dialogconst.SIGN_UP_STATE){ // мы сюда передаем константу в которой хранится число, Зашли для регистрации?
             rootDialogElement.tvClient.text = activ.resources.getString(R.string.registration)

@@ -10,7 +10,7 @@
     <string name="out_ad">Выйти из учетной записи</string>
     <string name="add_client">Добавить клиента</string>
     <string name="delete_client">Удалить клиента</string>
-    <string name="add_sotrudnik">Добавить сотрудника</string>
+    <string name="add_sotrudnik">Добавить парикмахера</string>
     <string name="delete_sotrudnik">Удалить сотрудника</string>
     <string name="main_name">Beauty</string>
     <string name="admin">Для администраторов</string>
@@ -18,8 +18,6 @@
     <string name="open">Открыть</string>
     <string name="close">Закрыть</string>
     <string name="default_web_client_id">325254929776-g1hk808jia4f9vt90jk9ul6n1jr74p76.apps.googleusercontent.com</string>
-
-
     <!-- Sign hint -->
     <string name="email_hint">Почта</string>
     <string name="password_hint">Пароль</string>
@@ -28,22 +26,16 @@
     <string name="sign_in_in">Войти</string>
     <string name="log_in">Зарегистрироваться</string>
     <string name="remember_pas">Забыли пароль?</string>
-
     <string name="error_signin">Ошибка регистрации</string>
     <string name="suck_signin">Подтвердите регистрацию на почте</string>
     <string name="error_signin_emai">Не удалось отправить сообщение на почту для подтверждения</string>
     <string name="error_signin_">Не удалось войти</string>
     <string name="wait_an_email">Сообщение для сброса пароля отправлено на почту</string>
-
-
     <string name="parik">Записаться к парикмахеру</string>
     <string name="makeup">Записаться к визажисту</string>
     <string name="massag">Записаться на массаж</string>
-
-
     <string name="not_reg">Вы не зарегистрированы</string>
     <string name="input_your_mail">Введите почту для сброса пароля</string>
-
     <string name="name_of_master">Имя мастера</string>
     <string name="add_name_of_master">Введите имя мастера</string>
     <string name="work_of_master">Должность мастера</string>
@@ -55,13 +47,24 @@
     <string name="raspisanie">Расписание </string>
     <string name="data">Введите дату</string>
     <string name="time">Время</string>
-
-
-
-
-
-
-
-
-
+    <string name="kotiki">котики</string>
+    <string name="zapis_master">Запись к мастеру</string>
+    <string name="vi_hotite">Вы хотите записаться на эту дату?</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+    <string name="put_name_lastname">Введите имя и фамилию</string>
+    <string name="put_phone">Введите свой номер телефона</string>
+    <string name="name_lastname">Имя и фамилия</string>
+    <string name="your_phone">Номер телефона</string>
+    <string name="go">записаться</string>
+    <string name="cancle">отмена</string>
+    <string name="zapiszapis">вы успешно записаны</string>
+    <string name="dop">Дополнительные возможности</string>
+    <string name="spisok_clientov">Список клиентов</string>
+    <string name="auth">Авторизируйтесь для записи</string>
+    <string name="zapis_client">Записанные клиенты</string>
+    <string name="price">Цена за услугу</string>
+    <string name="price_add">Введите цену за услугу</string>
+    <string name="add_massaj">Добавить массажиста</string>
+    <string name="add_vizaj">Добавить визажиста</string>
 </resources>
