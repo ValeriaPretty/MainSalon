@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "325254929776",
+    "firebase_url": "https://mainsalon-18eab-default-rtdb.firebaseio.com",
+    "project_id": "mainsalon-18eab",
+    "storage_bucket": "mainsalon-18eab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325254929776:android:92059a71d632fb4e5d43b5",
+        "android_client_info": {
+          "package_name": "com.example.mainsalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325254929776-g1hk808jia4f9vt90jk9ul6n1jr74p76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_zbnuGKqBWwI3bRIlZ3cXVQxinZOlTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325254929776-g1hk808jia4f9vt90jk9ul6n1jr74p76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

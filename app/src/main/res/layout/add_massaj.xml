@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/divider"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/wjrk_of_master2_massaj"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="16dp"
+        android:shadowColor="@color/black"
+        android:text="@string/price"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_work_of_master2_massaj" />
+
+    <EditText
+        android:id="@+id/add_price_of_master_massaj"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/price_add"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wjrk_of_master_massaj" />
+
+    <EditText
+        android:id="@+id/add_work_of_master2_massaj"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/add_work_of_master"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wjrk_of_master_massaj" />
+
+    <TextView
+        android:id="@+id/name_of_master1_massaj"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/name_of_master"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wjrk_of_master_massaj"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="16dp"
+        android:shadowColor="@color/black"
+        android:text="@string/work_of_master"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_of_master2_massaj"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/age"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/add_name_of_master1_massaj"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/add_name_of_master"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_of_master1_massaj" />
+
+    <EditText
+        android:id="@+id/add_age_of_master_massaj"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/add_age"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_of_master2_massaj" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_name_of_master1_massaj" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_age_of_master_massaj" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/purp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_work_of_master2_massaj" />
+
+    <Button
+        android:id="@+id/button_master_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="onclick5"
+        android:text="@string/master_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2_nazad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/nazad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="217dp"
+        android:text="@string/raspisanie"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+    <EditText
+        android:id="@+id/data1"
+        android:layout_width="123dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="251dp"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdata"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/data2"
+        android:layout_width="124dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="251dp"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/data3"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="250dp"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data1_1"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/time_of_data1_2"
+        app:layout_constraintStart_toEndOf="@+id/data1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdata"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data2_1"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/time_of_data1_2"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/data1"
+        app:layout_constraintTop_toBottomOf="@+id/time_of_data1_1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data3_1"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/time_of_data1_2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/data1"
+        app:layout_constraintTop_toBottomOf="@+id/time_of_data2_1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data1_2"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/time_of_data1_3"
+        app:layout_constraintStart_toEndOf="@+id/time_of_data1_1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdata"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data2_2"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/time_of_data1_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/time_of_data1_1"
+        app:layout_constraintTop_toBottomOf="@+id/time_of_data1_2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data3_2"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/time_of_data1_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/time_of_data1_1"
+        app:layout_constraintTop_toBottomOf="@+id/time_of_data2_2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data1_3"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/time_of_data1_2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdata"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data2_3"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/time_of_data1_2"
+        app:layout_constraintTop_toBottomOf="@+id/time_of_data1_3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time_of_data3_3"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/time_of_data1_2"
+        app:layout_constraintTop_toBottomOf="@+id/time_of_data2_3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
